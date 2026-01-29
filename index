@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>商業いろいろ四択問題</title>
+  <title>全商商経マーケティング</title>
   <style>
     body {
       font-family: "Arial", sans-serif;
@@ -122,7 +122,7 @@
 </head>
 <body>
   <div id="game">
-    <h1>商業いろいろ四択問題</h1>
+    <h1>全商商経マーケティング</h1>
     <div id="enemy">
       <img id="enemyImg" src="">
     </div>
@@ -140,14 +140,14 @@
   <script>
     // 敵画像（順番に登場）
     const enemyImages = [
-      "kaseijin_green.png",
-      "kaseijin_purple.png",
-      "kaseijin_red.png"
+      "character_monster_mimic_green.png",
+      "character_monster_mimic_purple.png",
+      "character_monster_mimic_red.png"
     ];
 
     // ★ 問題リスト ★
     const allQuestions = [
-      { q: "製品やサービスが「売れるしくみ」をつくること", options: ["生産志向", "マーケティング", "メーカー", "マーケティング・コンセプト"], answerIndex: 1 },
+{ q: "製品やサービスが「売れるしくみ」をつくること", options: ["生産志向", "マーケティング", "メーカー", "マーケティング・コンセプト"], answerIndex: 1 },
 { q: "製品を生産している製造業者のこと", options: ["生産志向", "マーケティング", "メーカー", "マーケティング・コンセプト"], answerIndex: 2 },
 { q: "マーケティングの考え方のこと", options: ["生産志向", "マーケティング", "メーカー", "マーケティング・コンセプト"], answerIndex: 3 },
 { q: "「つくれば売れる」という考え方のこと", options: ["生産志向", "マーケティング", "メーカー", "マーケティング・コンセプト"], answerIndex: 0 },
